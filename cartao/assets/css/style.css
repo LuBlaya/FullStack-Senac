@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Chewy&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Chewy&display=swap');
+* {
+
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body {
+    
+    background-color: #D4E2E2;
+    width: 390px;
+    margin: 0 auto;
+}
+
+header {
+    border-top: 2px solid black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+nav{
+    height: 60px;
+    background-color: #D4E2E2;
+    
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    text-decoration: none ;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+
+nav ul li:hover {
+    display: inline-block;
+    background-color: #7E9696;
+}
+
+main article {
+     text-align: center;
+     padding: 16px;
+     
+}
+
+footer {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-bottom: 2px solid black ;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+header, main, footer {
+    background-color: white;
+}
+
+.borda {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.text-nome {
+    font-family: 'chewi', cursive;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.texto {
+    font-family: 'Arvo', serif;;
+}
